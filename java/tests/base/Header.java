@@ -6,7 +6,7 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 
 
-public class header extends BaseTest {
+public class Header extends BaseTest {
     @Test(groups = {"home url", "header"})
     public void tm() {
         driver.get(HomePageLocators.HOME_URL);
